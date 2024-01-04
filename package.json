@@ -1,14 +1,16 @@
 {
-  "name": "new-vanillajs-project",
+  "name": "boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node --watch server.js"
+    "start": "parcel index.html",
+    "build": "parcel build index.js"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2"
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
   }
 }
+
